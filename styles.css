@@ -1,0 +1,54 @@
+/* Master Styles*/
+
+body {
+    margin: 0px;
+}
+
+.frontPage {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+/* Navigation styles */
+
+.left-side {
+    display: flex;
+}
+
+.navigation > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navigation-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navigation-link a {
+    color: royalblue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navigation-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.navigation-link a:hover {
+    color:black;
+}
+
+/* Portfolio Styles */
+
+
+
+
