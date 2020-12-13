@@ -1,3 +1,20 @@
+/* About Styles */
+
+
+.about {
+    display: flex;
+    grid-template-columns: 1fr;
+    background-color:lightskyblue; 
+}
+
+.aboutBodyClass {
+    background-color: crimson;
+}
+
+
+
+
+
 /* Master Styles*/
 
 body {
